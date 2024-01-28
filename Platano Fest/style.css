@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: rgb(22, 22, 22);
+}
+section{
+    background: url('svg/1.png') center/cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 270px;
+}
+.logo .logo_buy {
+    margin-top: 113px;
+    width: 305px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 900;
+    border: white solid 1px;
+    background: rgba(0, 0, 0, 0);
+    flex-shrink: 0;
+}
+.logo .logo_fest {
+    
+}
+.people {
+    height: 1113px;
+    background: #FFC64F;
+}
+.people .headliners .headliners_txt {
+    padding-top: 89px;
+    padding-left: 111px;;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 100px;
+}
+.people .headliners .eachpersom div {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.people .headliners .eachpersom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.people .headliners .eachpersom div .headliners_name {
+    color: #FFF;
+    
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: -20px;
+}
+.headliners_photo {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.people .artists .artists_txt {
+    padding-top: 49px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 50px;
+}
+.people .artists .eachpersom > div {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.people .artists .eachpersom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.people .artists .eachpersom div .artists_name {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: -10px;
+}
+.artists_photo {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.people .artists {
+    margin: 0 111px;
+}
+.people .artists .eachpersom .invite {
+    width: 400px;
+}
+.people .artists .eachpersom .invite .invite_txt {
+    color: black;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.people .artists .eachpersom .invite .invite_undertxt {
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.people .artists .eachpersom .invite .invite_social {
+    margin-top: 16px;
+    width: 100px;
+}
